@@ -1,0 +1,23 @@
+.container__small-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1rem;
+
+  .small-card__picture {
+    width: 30rem;
+    min-width: 20rem;
+
+    &>img {
+      width: 100%;
+    }
+  }
+
+  .small-card__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding-left: 1rem;
+  }
+}

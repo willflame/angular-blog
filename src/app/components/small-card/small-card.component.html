@@ -1,0 +1,10 @@
+<div class="container__small-card">
+  <div class="small-card__picture" *ngIf="picture">
+    <img [src]="picture" [alt]="pictureAlt || ''">
+  </div>
+
+  <!-- <div class="small-card__"></div> -->
+  <a [routerLink]="['content', id]" class="small-card__title" *ngIf="title">
+    {{ title }}
+  </a>
+</div>
